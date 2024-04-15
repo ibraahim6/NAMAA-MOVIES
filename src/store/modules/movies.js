@@ -68,7 +68,7 @@ export default {
         return false
       } else {
         commit('UPDATE_MOVIE', { index: foundedIndex, movieUpdated: payload })
-        return false
+        return true
       }
     }
   }

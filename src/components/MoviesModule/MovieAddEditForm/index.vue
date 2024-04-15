@@ -34,6 +34,7 @@
           </v-row>
           <ActorsTable
             :items="movie.listOfActors"
+            @addActor="addActor"
             @editActor="editActor"
             @deleteActor="deleteActor"
           />

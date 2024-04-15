@@ -15,7 +15,7 @@
         title="No Actors added yet !"
         :hasBtn="hasActions"
         btnText="Add a new actor"
-        @btnAction="addActor"
+        @btnAction="$emit('addActor')"
       />
     </template>
   </v-data-table>
